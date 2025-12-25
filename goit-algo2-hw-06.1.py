@@ -24,7 +24,7 @@ class BloomFilter:
         return True
 
 
-# 2. Функція check_password_uniqueness перевіряє нові паролі, використовуючи переданий фільтр (20 балів).            results[password] = "некоректний пароль"
+# 2. Функція check_password_uniqueness перевіряє нові паролі, використовуючи переданий фільтр (20 балів).       
 def check_password_uniqueness(bloom_filter, passwords):
     results = {}
     for password in passwords:
