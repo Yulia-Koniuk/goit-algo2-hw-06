@@ -120,6 +120,7 @@ print(f"{'Точний підрахунок':<25}{exact_count_large:<20}{exact_t
 print(f"{'HyperLogLog':<25}{hll_count_large:<20.1f}{hll_time_large:<20.6f}{hll_memory_large}")
 
 
+# Аналіз результатів порівняння знаходяться в файлі README
 
 
 
